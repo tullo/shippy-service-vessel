@@ -7,7 +7,7 @@ require (
 	github.com/micro/micro/v3 v3.18.5
 	github.com/pkg/errors v0.9.1
 	github.com/rs/xid v1.5.0
-	go.mongodb.org/mongo-driver v1.11.6
+	go.mongodb.org/mongo-driver v1.11.7
 	google.golang.org/protobuf v1.30.0
 )
 
