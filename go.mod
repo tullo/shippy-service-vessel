@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/golang/protobuf v1.5.3
-	github.com/micro/micro/v3 v3.19.0
+	github.com/micro/micro/v4 v4.3.1
 	github.com/pkg/errors v0.9.1
 	github.com/rs/xid v1.5.0
 	go.mongodb.org/mongo-driver v1.12.1
