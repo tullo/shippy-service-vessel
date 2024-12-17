@@ -4,13 +4,13 @@ import (
 	"context"
 	"time"
 
-	"go.mongodb.org/mongo-driver/mongo"
-	"go.mongodb.org/mongo-driver/mongo/options"
+	"go.mongodb.org/mongo-driver/v2/mongo"
+	"go.mongodb.org/mongo-driver/v2/mongo/options"
 )
 
 // CreateClient -
 func CreateClient(ctx context.Context, uri string, retry int32) (*mongo.Client, error) {
-	conn, err := mongo.Connect(ctx, options.Client().ApplyURI(uri))
+	conn, err := mongo.Connect(options.Client().ApplyURI(uri))
 	if err := conn.Ping(ctx, nil); err != nil {
 		if retry >= 3 {
 			return nil, err
