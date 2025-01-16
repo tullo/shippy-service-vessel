@@ -2,7 +2,7 @@ module github.com/tullo/shippy-service-vessel
 
 go 1.22.0
 
-toolchain go1.23.4
+toolchain go1.23.5
 
 require (
 	github.com/golang/protobuf v1.5.4
