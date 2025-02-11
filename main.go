@@ -4,9 +4,9 @@ import (
 	"context"
 	"log"
 
-	"github.com/micro/micro/v3/service"
-	"github.com/micro/micro/v3/service/config"
-	"github.com/micro/micro/v3/service/logger"
+	"github.com/micro/micro/v5/service"
+	"github.com/micro/micro/v5/service/config"
+	"github.com/micro/micro/v5/service/logger"
 	proto "github.com/tullo/shippy-service-vessel/proto"
 )
 

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/micro/micro/v3/service/logger"
+	"github.com/micro/micro/v5/service/logger"
 	"github.com/pkg/errors"
 	proto "github.com/tullo/shippy-service-vessel/proto"
 	"go.mongodb.org/mongo-driver/v2/bson"
