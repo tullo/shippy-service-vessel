@@ -1,6 +1,7 @@
 module github.com/tullo/shippy-service-vessel
 
-go 1.23
+go 1.23.0
+
 toolchain go1.24.1
 
 require (
@@ -9,7 +10,7 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/rs/xid v1.6.0
 	go.mongodb.org/mongo-driver/v2 v2.1.0
-	google.golang.org/protobuf v1.36.5
+	google.golang.org/protobuf v1.36.6
 )
 
 require (
