@@ -1,6 +1,11 @@
 SHELL = /bin/bash -o pipefail
 export SVC=shippy-service-vessel
 
+.PHONY: init
+init:
+	@go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
+	@go install github.com/micro/micro/v5/cmd/protoc-gen-micro@latest
+
 docker-image: export DOCKER_BUILDKIT = 1
 docker-image:
 	@docker build -f dockerfile -t ${SVC} .
