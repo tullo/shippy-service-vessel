@@ -14,3 +14,5 @@
 # Dependency directories (remove the comment below to include it)
 # vendor/
 shippy-service-vessel
+bin/
+.devbox/
