@@ -6,7 +6,7 @@ toolchain go1.24.4
 
 require (
 	github.com/golang/protobuf v1.5.4
-	github.com/micro/micro/v5 v5.7.0
+	github.com/micro/micro/v5 v5.8.0
 	github.com/pkg/errors v0.9.1
 	github.com/rs/xid v1.6.0
 	go.mongodb.org/mongo-driver/v2 v2.2.2
