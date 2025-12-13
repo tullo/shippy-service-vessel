@@ -10,7 +10,7 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/rs/xid v1.6.0
 	go.mongodb.org/mongo-driver/v2 v2.4.1
-	google.golang.org/protobuf v1.36.10
+	google.golang.org/protobuf v1.36.11
 )
 
 require (
